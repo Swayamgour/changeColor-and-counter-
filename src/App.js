@@ -13,9 +13,8 @@ export default function App() {
   };
 
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+ 
+    
       <div className="centerConater">
         <div className="main" style={{backgroundColor:'	#d3d3d3'}}>
           <div className="center" style={{backgroundColor:`${changeColor}` }}>
@@ -27,6 +26,6 @@ export default function App() {
         </div>
         <button className="counterbutton" onClick={handelChangeColor}>ChangeColor</button>
       </div>
-    </div>
+   
   );
 }
