@@ -10,7 +10,7 @@ export default function App() {
   const handelChangeColor = () => {
    const randomColor = '#' + Math.random().toString(16).slice(2,8)
    setChangeColor(randomColor)
-   setCounter(counter+1)
+  
   };
 
   return (
